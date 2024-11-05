@@ -1,0 +1,7 @@
+{
+  "name": "ArvisTrainerCamera",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
