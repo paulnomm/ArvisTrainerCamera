@@ -129,7 +129,32 @@
               "src/**/*.html"
             ]
           }
-        }
+        },
+        "ionic-cordova-build": {
+  "builder": "@ionic/cordova-builders:cordova-build",
+  "options": {
+    "browserTarget": "app:build",
+    "devServerTarget": "app:serve"
+  },
+  "configurations": {
+    "production": {
+      "browserTarget": "app:build:production"
+    }
+  }
+},
+"ionic-cordova-serve": {
+  "builder": "@ionic/cordova-builders:cordova-serve",
+  "options": {
+    "browserTarget": "app:build",
+    "devServerTarget": "app:serve"
+  },
+  "configurations": {
+    "production": {
+      "browserTarget": "app:build:production"
+    }
+  }
+}
+
       }
     }
   },

@@ -13,31 +13,39 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^18.0.0",
+    "@angular/animations": "^18.2.10",
     "@angular/common": "^18.0.0",
     "@angular/compiler": "^18.0.0",
-    "@angular/core": "^18.0.0",
+    "@angular/core": "^18.2.10",
     "@angular/forms": "^18.0.0",
     "@angular/platform-browser": "^18.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/router": "^18.0.0",
+    "@awesome-cordova-plugins/camera-preview": "^6.9.0",
+    "@awesome-cordova-plugins/core": "^6.9.0",
+    "@awesome-cordova-plugins/streaming-media": "^6.9.0",
+    "@awesome-cordova-plugins/video-player": "^6.9.0",
     "@capacitor/app": "6.0.1",
     "@capacitor/core": "6.1.2",
     "@capacitor/haptics": "6.0.1",
     "@capacitor/keyboard": "6.0.2",
     "@capacitor/status-bar": "6.0.1",
     "@ionic-native/camera": "^5.36.0",
+    "@ionic-native/streaming-media": "^5.36.0",
     "@ionic/angular": "^8.0.0",
+    "@ionic/cordova-builders": "^12.1.2",
     "@mediapipe/camera_utils": "^0.3.1675466862",
     "@mediapipe/drawing_utils": "^0.3.1675466124",
     "@mediapipe/pose": "^0.5.1675469404",
+    "cordova-plugin-media": "^7.0.0",
     "ionicons": "^7.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "videogular2": "^7.0.2",
     "zone.js": "~0.14.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^18.0.0",
+    "@angular-devkit/build-angular": "^18.2.11",
     "@angular-eslint/builder": "^18.0.0",
     "@angular-eslint/eslint-plugin": "^18.0.0",
     "@angular-eslint/eslint-plugin-template": "^18.0.0",
@@ -47,7 +55,7 @@
     "@angular/compiler-cli": "^18.0.0",
     "@angular/language-service": "^18.0.0",
     "@capacitor/cli": "6.1.2",
-    "@ionic/angular-toolkit": "^11.0.1",
+    "@ionic/angular-toolkit": "^12.1.1",
     "@types/jasmine": "~5.1.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
@@ -83,8 +91,8 @@
       "cordova-plugin-camera": {}
     },
     "platforms": [
-      "android",
-      "ios"
+      "ios",
+      "android"
     ]
   }
 }
