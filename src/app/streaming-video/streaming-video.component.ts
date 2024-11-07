@@ -34,7 +34,7 @@ export class StreamingVideoComponent implements OnInit {
       errorCallback: (e: string) => { console.log('Error al reproducir', e); },
       orientation: 'landscape'
     };
-    this.streamingMedia.playVideo('http://192.168.1.105:8080/video', options);
+    this.streamingMedia.playVideo('rtsp://192.168.1.18/1/h264major', options);
   }
 
   // playVideo() {

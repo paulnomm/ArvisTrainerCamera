@@ -59,5 +59,7 @@ export class PoseDetectorComponent  implements AfterViewInit {
 
   private updateImageStream(imageStreamElement: HTMLImageElement) {
     imageStreamElement.src = 'http://192.168.1.105:8080/video';
+    // imageStreamElement.src = 'rtsp://192.168.1.105:8080/h264_ulaw.sdp';
+
   }
 }
